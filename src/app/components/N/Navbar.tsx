@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className={`${isSticky ? "fixed z-[500000] header-main w-[100%]" : "header-main"}`}>
       <Link
-        href={"/"}
+        href={"/page/home"}
         className="logo-box cursor-context-menu"
         title="Seer Interactive"
       >
