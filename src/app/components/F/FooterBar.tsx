@@ -15,7 +15,7 @@ const FooterBar = () => {
           </div>
           <h2>Home</h2>
         </Link>
-        <Link href={"/page/home"} className="startingIco-linker">
+        <Link href={"/page/starting"} className="startingIco-linker">
           <div>
             <Image src={startingIco} alt="Starting-Ico" />
           </div>

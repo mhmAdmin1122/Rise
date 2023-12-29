@@ -48,7 +48,7 @@ const Home = ({user}:any) => {
         {/* trigger-btn */}
         <div className="triggerBtnBox">
           <div className="triggerBtn">
-            <Link href={"/page/home"}>
+            <Link href={"/page/starting"}>
               <div>
                 <Image src={startingICO} alt="" />
               </div>

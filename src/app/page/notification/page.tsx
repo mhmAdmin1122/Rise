@@ -1,5 +1,5 @@
 import Head from "next/head";
-import PageNavbar from "../../components/P/PageNavbar";
+import PageNavbar from "@/app/components/P/PageNavbar";
 import React from "react";
 import { FaGreaterThan } from "react-icons/fa6";
 

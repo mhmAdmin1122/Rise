@@ -129,7 +129,7 @@ const Profile = ({data}:any) => {
             <div className="mainCardParts Profile">
               <h2 className="text-[20px] font-bold mb-[10px]">Profile</h2>
               <Link
-                href={"/page/recharge"}
+                href={"/page/profiledetail"}
                 className="flex items-center justify-between w-[100%] py-[15px] border-b-[1px] border-[#f3f3f3]"
               >
                 <div className="imageBox flex items-center gap-2">
