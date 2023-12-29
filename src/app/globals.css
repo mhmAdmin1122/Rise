@@ -68,7 +68,7 @@ body {
 /* triggerBtn */
 
 /* levelShortDetail */
-.levelDetailCard{
+.levelDetailCard {
   @apply w-[420px] bg-[#fff] p-[16px] rounded-[12px] transition-all ease-in-out duration-700 shadow-lg shadow-gray-300 border-[1px] border-gray-200;
 }
 .levelShortDetail {
@@ -279,14 +279,45 @@ body::-webkit-scrollbar-track,
     justify-content: center;
     gap: 15px;
   }
-  .levelDetailCard{
+  .levelDetailCard {
     @apply w-[320px] bg-[#fff] p-[16px] rounded-[12px] transition-all ease-in-out duration-700 shadow-lg shadow-gray-300 border-[1px] border-gray-200;
   }
   .levelImages {
-    @apply gap-4
+    @apply gap-4;
   }
-  .copy-write-line{
-    @apply text-[14px]
+  .copy-write-line {
+    @apply text-[14px];
+  }
+  /* profile page */
+  .userAmountAbout-box {
+    @apply w-[310px];
+  }
+  .userAmountAbout-box h2 {
+    @apply text-center;
+  }
+  .mainCard-box {
+    @apply w-[310px];
+  }
+  .uperBox {
+    @apply px-[20px];
+  }
+  .inputBoxes .form_Input {
+    @apply w-[350px] my-5;
+  }
+  .form_header h3 {
+    @apply text-[14px];
+  }
+  .typer_amount input {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    width: 200px;
+  }
+  .reacharge_Detail_Box_01 {
+    @apply h-screen;
   }
 }
 /* mobile design */
