@@ -75,7 +75,7 @@ const Profile = ({data}:any) => {
             <div className="mainCardParts Transaction w-[100%]">
               <h2 className="text-[20px] font-bold mb-[10px]">Transaction</h2>
               <Link
-                href={"/page/Recharge"}
+                href={"/page/recharge"}
                 className="flex items-center justify-between w-[100%] py-[15px] border-t-[1px] border-[#f3f3f3]"
               >
                 <div className="imageBox flex items-center gap-2">
@@ -92,7 +92,7 @@ const Profile = ({data}:any) => {
               </Link>
 
               <Link
-                href={"/page/Withdraw"}
+                href={"/page/withdraw"}
                 className="flex items-center justify-between w-[100%] py-[15px] border-y-[1px] border-[#f3f3f3]"
               >
                 <div className="imageBox flex items-center gap-2">
@@ -129,7 +129,7 @@ const Profile = ({data}:any) => {
             <div className="mainCardParts Profile">
               <h2 className="text-[20px] font-bold mb-[10px]">Profile</h2>
               <Link
-                href={"/page/Recharge"}
+                href={"/page/recharge"}
                 className="flex items-center justify-between w-[100%] py-[15px] border-b-[1px] border-[#f3f3f3]"
               >
                 <div className="imageBox flex items-center gap-2">
@@ -146,7 +146,7 @@ const Profile = ({data}:any) => {
               </Link>
 
               <Link
-                href={"/page/Withdraw"}
+                href={"/page/withdraw"}
                 className="flex items-center justify-between w-[100%] py-[15px] border-b-[1px] border-[#f3f3f3]"
               >
                 <div className="imageBox flex items-center gap-2">

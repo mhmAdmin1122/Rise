@@ -9,13 +9,13 @@ const FooterBar = () => {
   return (
     <footer className="bg-[#004357]">
       <div>
-        <Link href={"/"}>
+        <Link href={"/page/home"}>
           <div>
             <Image src={homeIco} alt="Home-Ico" />
           </div>
           <h2>Home</h2>
         </Link>
-        <Link href={"/"} className="startingIco-linker">
+        <Link href={"/page/home"} className="startingIco-linker">
           <div>
             <Image src={startingIco} alt="Starting-Ico" />
           </div>
