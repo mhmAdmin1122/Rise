@@ -15,7 +15,7 @@ body {
 }
 /* Navbar */
 .header-main {
-  @apply w-[100%] bg-[#fff] text-[#000] py-[10px] px-[15px] font-medium text-[20px] flex items-center justify-between;
+  @apply w-[100%] bg-[#0093e6] text-[#fff] py-[10px] px-[15px] font-medium text-[20px] flex items-center justify-between;
 }
 .logo-box img {
   @apply w-[120px] h-[60px];

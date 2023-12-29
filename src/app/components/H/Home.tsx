@@ -39,7 +39,7 @@ const Home = ({user}:any) => {
     setShowAboutUsform((current) => !current);
   };
   return (
-    <Layout classMainBox="">
+    <Layout classMainBox="layout-gradient">
       <NewsNotificationLine />
       <div className="Home-page">
         {/* welcome-box */}
