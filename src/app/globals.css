@@ -37,6 +37,7 @@ body {
   @apply px-[15px] py-[12px];
 } */
 /* Home-page */
+
 /* triggerBtn */
 .triggerBtnBox {
   @apply grid justify-center justify-items-center w-full my-[20px];
@@ -56,15 +57,20 @@ body {
 .triggerBtn div div {
   @apply w-[60px] h-[60px] bg-[#ececec] rounded-full p-[12px] flex justify-center items-center;
 }
-.triggerBtn a div img, .triggerBtn div div img {
+.triggerBtn a div img,
+.triggerBtn div div img {
   @apply w-[40px] h-[40px] cursor-pointer;
 }
-.triggerBtn a div, .triggerBtn div div {
+.triggerBtn a div,
+.triggerBtn div div {
   @apply shadow-lg shadow-gray-300;
 }
 /* triggerBtn */
 
 /* levelShortDetail */
+.levelDetailCard{
+  @apply w-[420px] bg-[#fff] p-[16px] rounded-[12px] transition-all ease-in-out duration-700 shadow-lg shadow-gray-300 border-[1px] border-gray-200;
+}
 .levelShortDetail {
   @apply font-extrabold text-[16px];
 }
@@ -232,22 +238,55 @@ body::-webkit-scrollbar-track,
 }
 /* Withdraw */
 /* SignIn_Form */
-.regesterrationForm div{
+.regesterrationForm div {
   @apply bg-[#fff] text-[#414141] border-[1px] border-gray-100 shadow-md shadow-gray-300 px-[12px] py-[8px] rounded-[4px] flex items-center justify-between my-2;
 }
-.regesterrationForm div input{
+.regesterrationForm div input {
   @apply text-[20px] font-normal outline-none;
 }
-.regesterrationForm div svg{
+.regesterrationForm div svg {
   @apply text-[#999] transition-all ease-in-out duration-1000 hover:text-[#ff0000] text-[20px];
 }
-.cline{
+.cline {
   @apply my-2 text-[16px] font-medium text-[#999];
 }
-.cline input{
+.cline input {
   @apply w-[20px] h-[20px];
 }
-.regesterrationForm .formbtn{
+.regesterrationForm .formbtn {
   @apply bg-[#ff0000] text-[20px] text-[#fff] font-bold px-[18px] py-[8px] rounded-[6px] my-2;
 }
 /* SignIn_Form */
+
+/* mobile design */
+
+@media (max-width: 600px) and (min-width: 320px) {
+  /* trigger btns box */
+  .triggerBtnBox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+  }
+  .triggerBtn {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .levelDetailCard{
+    @apply w-[320px] bg-[#fff] p-[16px] rounded-[12px] transition-all ease-in-out duration-700 shadow-lg shadow-gray-300 border-[1px] border-gray-200;
+  }
+  .levelImages {
+    @apply gap-4
+  }
+  .copy-write-line{
+    @apply text-[14px]
+  }
+}
+/* mobile design */

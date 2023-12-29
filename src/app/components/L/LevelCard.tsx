@@ -38,7 +38,7 @@ const LevelCard = () => {
 
   return (
     <div className="level-detail-cardsBox grid justify-items-center w-[100%]">
-      <div className="levelDetailCard w-[420px] bg-[#fff] p-[16px] rounded-[12px] transition-all ease-in-out duration-700 shadow-lg shadow-gray-300 border-[1px] border-gray-200">
+      <div className="levelDetailCard">
         <div className="cardHeader flex items-center justify-between">
           <h2 className="font-bold text-[18px]">VIP Level</h2>
           <Link
