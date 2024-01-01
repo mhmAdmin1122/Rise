@@ -4,7 +4,7 @@ import SideBar from "../AdminComponents/SideBar";
 
 const AdminLayout = ({ children }: any) => {
   const [condition, setCondition] = useState(false);
-  const [password, setPassword] = useState(0);
+  const [password, setPassword] = useState();
 
   const handleOnSubmitCheck = (e: any) => {
     if (password == 7692) {
