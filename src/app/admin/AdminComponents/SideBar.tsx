@@ -80,22 +80,6 @@ const SideBar = () => {
             <MdAnalytics className="text-4xl" />
             <h2>Levels</h2>
           </Link>
-
-          <Link
-            href="/admin/AdminPages/AdminUserDetails"
-            className="flex items-center gap-2 "
-          >
-            <MdSupervisedUserCircle className="text-4xl" />
-            <h2>User Details</h2>
-          </Link>
-
-          <Link
-            href="/admin/AdminPages/AdminPendingTask"
-            className="flex items-center gap-2 "
-          >
-            <MdOutlinePendingActions className="text-4xl" />
-            <h2>Pending Tasks</h2>
-          </Link>
         </div>
       </div>
 
