@@ -8,7 +8,6 @@ import {
   GiReceiveMoney,
   GiPayMoney,
   GiTakeMyMoney,
-  GiPlagueDoctorProfile,
   GiOpenFolder,
 } from "react-icons/gi";
 import {
@@ -57,14 +56,7 @@ const SideBar = () => {
         </div>
 
         <div className="px-[20px] flex flex-col gap-4">
-          <Link
-            href="/admin/AdminPages/AdminEvents"
-            className="flex items-center gap-2"
-          >
-            <GiPlagueDoctorProfile className="text-4xl" />
-            <h2>Events</h2>
-          </Link>
-
+          
           <Link
             href="/admin/AdminPages/AdminRecords"
             className="flex items-center gap-2 "

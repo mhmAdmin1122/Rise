@@ -258,13 +258,37 @@ body::-webkit-scrollbar-track,
 }
 /* SignIn_Form */
 /* sidebarAdmin */
-.sidebarAdmin::-webkit-scrollbar, .tabsAdminBox::-webkit-scrollbar{
-  @apply w-[8px] hidden
+.sidebarAdmin::-webkit-scrollbar,
+.tabsAdminBox::-webkit-scrollbar,
+.rechBox::-webkit-scrollbar,
+.bodyboxform::-webkit-scrollbar {
+  @apply w-[8px] hidden;
 }
-.admincards{
+.admincards {
   @apply bg-[#fff] text-[#000] w-[320px] px-[20px] py-[15px] rounded-md text-center;
 }
 /* sidebarAdmin */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* recharge_form */
+.records_form,
+.notificationForm {
+  @apply flex flex-col gap-4 w-[320px];
+}
+.records_form input,
+.records_form button,
+.notificationForm input,
+.notificationForm button,
+.notificationForm textarea {
+  @apply outline-none px-[20px] py-[10px] rounded w-full bg-[#fff] text-[#00ff];
+}
+.records_form button, .notificationForm button {
+  @apply font-bold text-xl;
+}
 /* mobile design */
 
 @media (max-width: 600px) and (min-width: 320px) {

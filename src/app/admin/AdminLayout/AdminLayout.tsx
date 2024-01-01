@@ -6,7 +6,7 @@ const AdminLayout = ({ children }: any) => {
     <div className="flex">
       <SideBar />
       <div className="adminBodyBox w-[80%] p-[30px] h-screen">
-        <div className="w-full bg-[#00ff] text-[#fff] h-full px-[30px] py-[20px] rounded-md shadow-lg shadow-gray-500">{children}</div>
+        <div className="bodyboxform w-full bg-[#00ff] text-[#fff] h-full px-[30px] py-[20px] overflow-scroll overflow-x-hidden rounded-md shadow-lg shadow-gray-500">{children}</div>
       </div>
     </div>
   );
