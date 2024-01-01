@@ -5,14 +5,16 @@ import SideBar from "../AdminComponents/SideBar";
 const AdminLayout = ({ children }: any) => {
   const [condition, setCondition] = useState(false);
   const [password, setPassword] = useState();
+  const [error, setError] = useState("");
 
   const handleOnSubmitCheck = (e: any) => {
     if (password == 7692) {
       setCondition(true);
     } else {
       setCondition(false);
+      alert(`"please do not enter any invalid password we are accessing you IP to secure our services" because your enterd password ${password} is incorrect`)
     }
-    console.log(condition)
+    console.log(condition);
   };
 
   return (
@@ -28,7 +30,7 @@ const AdminLayout = ({ children }: any) => {
         </div>
       ) : (
         <form
-          className="securityBox bg-[#ececec] px-[20px] py-10px min-h-screen max-h-screen flex items-center justify-center"
+          className="securityBox bg-[#ececec] px-[20px] py-10px min-h-screen max-h-screen grid items-center justify-center"
           onSubmit={handleOnSubmitCheck}
         >
           <div className="bg-[#fff] text-[#000] pl-[30px] rounded shadow-md shadow-gray-300 border-[1px] border-gray-200">
